@@ -1,0 +1,30 @@
+{
+  "name": "terrazine/artisan-forceascii",
+  "description": "Force artisan ascii output.",
+  "type": "listener",
+  "license": "inherit",
+  "authors": [
+    {
+      "name": "Patrick 'Quezler' Mounier",
+      "email": "Quezler@me.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Terrazine\\ArtisanForceAscii\\": "src/"
+    }
+  },
+  "extra": {
+    "terrazine": {
+      "human": "@see terrazine/slayn"
+    },
+    "laravel": {
+      "providers": [
+        "Terrazine\\ArtisanForceAscii\\TerrazineArtisanForceAsciiServiceProvider"
+      ]
+    }
+  }
+}
