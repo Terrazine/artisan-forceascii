@@ -14,7 +14,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Terrazine\\ArtisanForceAscii\\": "src/"
+      "Terrazine\\ArtisanForceAscii\\": "src/",
+      "Symfony\\Component\\Console\\Output\\": "src/"
     }
   },
   "extra": {
